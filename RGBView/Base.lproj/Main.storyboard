@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="height" constant="228" id="Df4-58-s50"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="BpX-Zz-s7J">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BpX-Zz-s7J">
                                 <rect key="frame" x="16" y="367" width="361" height="90"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="A2n-nD-OBt">
@@ -53,7 +53,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="yK1-bB-aY0">
-                                        <rect key="frame" x="54" y="0.0" width="35" height="90"/>
+                                        <rect key="frame" x="61" y="0.0" width="35" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.28" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5H-m4-jxk">
                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="24.666666666666668"/>
@@ -79,10 +79,10 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="K5a-21-WNI">
-                                        <rect key="frame" x="92" y="0.0" width="269" height="90"/>
+                                        <rect key="frame" x="106" y="0.0" width="255" height="90"/>
                                         <subviews>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="uXI-uY-NP0">
-                                                <rect key="frame" x="-2" y="0.0" width="273" height="31"/>
+                                                <rect key="frame" x="-2" y="0.0" width="259" height="31"/>
                                                 <color key="tintColor" systemColor="systemRedColor"/>
                                                 <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,7 +91,7 @@
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qQ2-SU-yoz">
-                                                <rect key="frame" x="-2" y="30" width="273" height="31"/>
+                                                <rect key="frame" x="-2" y="30" width="259" height="31"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                                 <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,7 +100,7 @@
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="uHd-bp-fvU">
-                                                <rect key="frame" x="-2" y="60" width="273" height="31"/>
+                                                <rect key="frame" x="-2" y="60" width="259" height="31"/>
                                                 <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
