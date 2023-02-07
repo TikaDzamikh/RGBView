@@ -86,17 +86,26 @@
                                                 <color key="tintColor" systemColor="systemRedColor"/>
                                                 <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="i3d-Lj-3tH"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qQ2-SU-yoz">
                                                 <rect key="frame" x="-2" y="30" width="273" height="31"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                                 <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="greenSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="12O-CL-KTK"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="uHd-bp-fvU">
                                                 <rect key="frame" x="-2" y="60" width="273" height="31"/>
                                                 <color key="maximumTrackTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="blueSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="GBp-Z4-Vsl"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                     </stackView>
@@ -114,6 +123,15 @@
                             <constraint firstItem="BpX-Zz-s7J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="oXi-Hn-vPL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueLabel" destination="8ih-hh-NW4" id="bbT-XT-KRx"/>
+                        <outlet property="blueSlider" destination="uHd-bp-fvU" id="bfg-l1-1wd"/>
+                        <outlet property="customizedView" destination="fiy-y9-fL5" id="bye-Ay-4LT"/>
+                        <outlet property="greenLabel" destination="0Gt-nD-Qjf" id="TVI-TD-yto"/>
+                        <outlet property="greenSlider" destination="qQ2-SU-yoz" id="1wY-9U-jFt"/>
+                        <outlet property="redLabel" destination="b5H-m4-jxk" id="1tz-ly-W6J"/>
+                        <outlet property="redSlider" destination="uXI-uY-NP0" id="tB3-f1-omd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
